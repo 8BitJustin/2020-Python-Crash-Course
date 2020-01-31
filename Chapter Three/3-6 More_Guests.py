@@ -21,3 +21,5 @@ print(guest_list[1] + " is going to the party.")
 print(guest_list[2] + " is going to the party.")
 print(guest_list[3] + " is going to the party.")
 print(guest_list[4] + " is going to the party.\n")
+
+print(guest_list)
