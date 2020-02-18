@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 5/5-10 Checking_Usernames.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 5/5-10 Checking_Usernames.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +34,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Random Python Scripts" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Python.5-9 No_Users">
-    <configuration name="5-5 Alien_Colors_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.5-10 Checking_Usernames">
+    <configuration name="5-10 Checking_Usernames" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,7 +47,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 5/5-5 Alien_Colors_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 5/5-10 Checking_Usernames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5-10 Checking_Usernames" />
         <item itemvalue="Python.5-9 No_Users" />
         <item itemvalue="Python.5-8 Hello_Admin" />
         <item itemvalue="Python.5-7 Favorite_Fruit" />
         <item itemvalue="Python.5-6 Stages_of_Life" />
-        <item itemvalue="Python.5-5 Alien_Colors_3" />
       </list>
     </recent_temporary>
   </component>
@@ -163,22 +164,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="333" key="GridCell.Tab.0.bottom" timestamp="1581981275337">
+    <state width="1899" height="333" key="GridCell.Tab.0.bottom" timestamp="1582041031704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581981275337" />
-    <state width="1899" height="333" key="GridCell.Tab.0.center" timestamp="1581981275336">
+    <state width="1899" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582041031704" />
+    <state width="1899" height="333" key="GridCell.Tab.0.center" timestamp="1582041031704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581981275336" />
-    <state width="1899" height="333" key="GridCell.Tab.0.left" timestamp="1581981275336">
+    <state width="1899" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582041031704" />
+    <state width="1899" height="333" key="GridCell.Tab.0.left" timestamp="1582041031704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581981275336" />
-    <state width="1899" height="333" key="GridCell.Tab.0.right" timestamp="1581981275336">
+    <state width="1899" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582041031704" />
+    <state width="1899" height="333" key="GridCell.Tab.0.right" timestamp="1582041031704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581981275336" />
+    <state width="1899" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582041031704" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1581566255567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
