@@ -33,7 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Testing/Turtle_Practice" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.5-11 Ordinal_Numbers">
+  <component name="RunManager" selected="Python.6-1 Person">
     <configuration name="5-10 Checking_Usernames" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,27 +68,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 5/5-11 Ordinal_Numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5-7 Favorite_Fruit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Crash Course 2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 5/5-7 Favorite_Fruit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,13 +118,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6-1 Person" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Crash Course 2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 6/6-1 Person.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6-1 Person" />
         <item itemvalue="Python.5-11 Ordinal_Numbers" />
         <item itemvalue="Python.5-10 Checking_Usernames" />
         <item itemvalue="Python.5-9 No_Users" />
         <item itemvalue="Python.5-8 Hello_Admin" />
-        <item itemvalue="Python.5-7 Favorite_Fruit" />
       </list>
     </recent_temporary>
   </component>
@@ -167,22 +167,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582086737279" />
-    <state width="1899" height="333" key="GridCell.Tab.0.bottom" timestamp="1582041719609">
+    <state width="1899" height="333" key="GridCell.Tab.0.bottom" timestamp="1582172512558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582041719609" />
-    <state width="1899" height="333" key="GridCell.Tab.0.center" timestamp="1582041719608">
+    <state width="1899" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582172512558" />
+    <state width="1899" height="333" key="GridCell.Tab.0.center" timestamp="1582172512558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582041719608" />
-    <state width="1899" height="333" key="GridCell.Tab.0.left" timestamp="1582041719608">
+    <state width="1899" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582172512558" />
+    <state width="1899" height="333" key="GridCell.Tab.0.left" timestamp="1582172512557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582041719608" />
-    <state width="1899" height="333" key="GridCell.Tab.0.right" timestamp="1582041719608">
+    <state width="1899" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582172512557" />
+    <state width="1899" height="333" key="GridCell.Tab.0.right" timestamp="1582172512558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582041719608" />
+    <state width="1899" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582172512558" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1582042623923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
