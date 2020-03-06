@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 7/7-10 Dream_Vacation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 7/7-10 Dream_Vacation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +33,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Testing/Turtle_Practice" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.7-7 Infinity">
-    <configuration name="7-2 Restaurant_Seating" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.7-10 Dream_Vacation">
+    <configuration name="7-10 Dream_Vacation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,49 +46,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 7/7-2 Restaurant_Seating.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7-3 Multiples_of_Ten" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Crash Course 2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 7/7-3 Multiples_of_Ten.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7-4 Pizza_Toppings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Crash Course 2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 7/7-4 Pizza_Toppings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 7/7-10 Dream_Vacation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,13 +97,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="7-8 Deli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Crash Course 2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 7/7-8 Deli.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7-9 No_Pastrami" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Crash Course 2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 7/7-9 No_Pastrami.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7-10 Dream_Vacation" />
+        <item itemvalue="Python.7-9 No_Pastrami" />
+        <item itemvalue="Python.7-8 Deli" />
         <item itemvalue="Python.7-7 Infinity" />
         <item itemvalue="Python.7-5 Movie_Tickets" />
-        <item itemvalue="Python.7-4 Pizza_Toppings" />
-        <item itemvalue="Python.7-3 Multiples_of_Ten" />
-        <item itemvalue="Python.7-2 Restaurant_Seating" />
       </list>
     </recent_temporary>
   </component>
@@ -167,22 +167,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582086737279" />
-    <state width="1899" height="333" key="GridCell.Tab.0.bottom" timestamp="1583296795957">
+    <state width="949" height="333" key="GridCell.Tab.0.bottom" timestamp="1583504631067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583296795957" />
-    <state width="1899" height="333" key="GridCell.Tab.0.center" timestamp="1583296795957">
+    <state width="949" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583504631067" />
+    <state width="949" height="333" key="GridCell.Tab.0.center" timestamp="1583504631067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583296795957" />
-    <state width="1899" height="333" key="GridCell.Tab.0.left" timestamp="1583296795957">
+    <state width="949" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583504631067" />
+    <state width="949" height="333" key="GridCell.Tab.0.left" timestamp="1583504631067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583296795957" />
-    <state width="1899" height="333" key="GridCell.Tab.0.right" timestamp="1583296795957">
+    <state width="949" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583504631067" />
+    <state width="949" height="333" key="GridCell.Tab.0.right" timestamp="1583504631067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583296795957" />
+    <state width="949" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583504631067" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1582042623923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
