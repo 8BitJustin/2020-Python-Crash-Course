@@ -6,7 +6,7 @@ def make_album(artist_name, album_title, tracks=''):
 
 while True:
     print('Lemme know your favorite artist and their best album:')
-    print('(press \'q\' to quit')
+    print('(press \'q\' to quit)')
     name = input('Artist name? ')
     if name == 'q':
         break
