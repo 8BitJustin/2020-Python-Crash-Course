@@ -18,4 +18,5 @@ greats = []
 
 make_great(magicians[:], greats)
 show_magicians(magicians)
+print()
 show_magicians(greats)
