@@ -7,7 +7,7 @@ def build_profile(first, last, **user_info):
     return profile
 
 
-user_profile = build_profile('justin', 'olson', vehicle='wrx',
+user_profile = build_profile('justin', 'olson', game='cod', vehicle='wrx',
                              fav_language='python')
 
 print(user_profile)
