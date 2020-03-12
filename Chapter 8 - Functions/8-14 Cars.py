@@ -5,6 +5,13 @@ def build_car(make, model, **added):
     return car
 
 
-subaru = build_car('subaru', 'wrx', color='silver')
+subaru = build_car('subaru', 'wrx', color='silver', completed=10)
 
 print(subaru)
+
+for k, v in subaru.items():
+    if k == 'completed':
+        print(k.title() + ': ' + str(v) + '%')
+    else:
+        print(k.title() + ': ' + v.title())
+
