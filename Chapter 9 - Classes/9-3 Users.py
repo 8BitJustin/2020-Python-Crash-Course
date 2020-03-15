@@ -4,10 +4,12 @@ class Users():
         self.lname = last_name
 
     def describe_user(self):
-        return 'User: ' + self.fname.title() + ' ' + self.lname.title()
+        user_name = 'User: ' + self.fname.title() + ' ' + self.lname.title()
+        return user_name
 
     def greet_user(self):
-        return 'Hello, ' + self.fname.title() + ' ' + self.lname.title() + '.'
+        greeting = 'Hello, ' + self.fname.title() + ' ' + self.lname.title() + '.'
+        return greeting
 
 
 person_one = Users('justin', 'olson')
