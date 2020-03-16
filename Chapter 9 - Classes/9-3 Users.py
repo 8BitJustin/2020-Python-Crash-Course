@@ -8,7 +8,7 @@ class Users():
         return user_name
 
     def greet_user(self):
-        greeting = 'Hello, ' + self.fname.title() + ' ' + self.lname.title() + '.'
+        greeting = 'Hello, ' + self.fname.title() + ' ' + self.lname.title() + '. '
         return greeting
 
 
