@@ -23,16 +23,22 @@ class Users():
         return greeting
 
 
+# Creating the instance of the user class
 person = Users('justin', 'olson')
 
+# Making numerous login attempts
 person.increment_login_attempts()
 person.increment_login_attempts()
 person.increment_login_attempts()
 
+# Showing login attempts
 print(person.describe_user())
+
 
 print()
 
+# Resetting login attempts
 person.reset_login_attempts()
 
+# Showing login attempts at reset of 0
 print(person.describe_user())
