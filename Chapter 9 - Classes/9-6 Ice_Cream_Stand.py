@@ -23,4 +23,4 @@ class IceCreamStand(Restaurant):
 
 
 ice_palace = IceCreamStand('NIICE', 'ice cream')
-print(ice_palace.show_flavors())
+ice_palace.show_flavors()
