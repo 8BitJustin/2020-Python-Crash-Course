@@ -21,3 +21,18 @@ class Users():
         greeting = 'Hello, ' + self.fname.title() + ' ' + self.lname.title()\
                    + '. '
         return greeting
+
+
+class Admin(Users):
+    def __init__(self, first_name, last_name):
+        super().__init__(first_name, last_name)
+        self.privileges = ['can add post', 'can delete post', 'can ban user']
+
+    def show_privileges(self):
+        print('You have the following privileges:')
+        for i in self.privileges:
+            print('\t' + i.title())
+
+
+superuser = Admin('justin', 'olson')
+superuser.show_privileges()
