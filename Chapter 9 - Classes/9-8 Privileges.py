@@ -13,12 +13,12 @@ class Users():
         return self.login_attempts
 
     def describe_user(self):
-        user_name = 'User: ' + self.fname.title() + ' ' + self.lname.title()\
+        user_name = 'User: ' + self.fname.title() + ' ' + self.lname.title() \
                     + '\nLogin Attempts: ' + str(self.login_attempts)
         return user_name
 
     def greet_user(self):
-        greeting = 'Hello, ' + self.fname.title() + ' ' + self.lname.title()\
+        greeting = 'Hello, ' + self.fname.title() + ' ' + self.lname.title() \
                    + '. '
         return greeting
 
@@ -26,6 +26,11 @@ class Users():
 class Admin(Users):
     def __init__(self, first_name, last_name):
         super().__init__(first_name, last_name)
+        self.privileges = Privileges()
+
+
+class Privileges():
+    def __init__(self):
         self.privileges = ['can add post', 'can delete post', 'can ban user']
 
     def show_privileges(self):
@@ -35,4 +40,4 @@ class Admin(Users):
 
 
 superuser = Admin('justin', 'olson')
-superuser.show_privileges()
+superuser.privileges.show_privileges()
