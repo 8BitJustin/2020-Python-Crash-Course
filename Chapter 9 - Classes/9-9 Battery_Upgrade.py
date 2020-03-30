@@ -23,6 +23,10 @@ class Car():
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
+    def fill_gas_tank(self):
+        """Regular cars do have gas tanks."""
+        print('This car is filled up.')
+
 
 class ElectricCar(Car):
     """Represents electric cars, using Cars as parent."""
@@ -31,6 +35,14 @@ class ElectricCar(Car):
         """Initialize attributes of parent class."""
         super().__init__(make, model, year)
 
+    def fill_gas_tank(self):
+        """Electric cars do not have gas tanks."""
+        print('This car does not need a gas tank.')
 
+
+my_wrx = Car('subaru', 'wrx', 2019)
 my_tesla = ElectricCar('tesla', 'model s', 2018)
+print(my_wrx.get_descriptive_name())
+print(my_wrx.fill_gas_tank())
 print(my_tesla.get_descriptive_name())
+print(my_tesla.fill_gas_tank())
