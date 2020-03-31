@@ -66,7 +66,8 @@ class Battery():
     def upgrade_battery(self):
         if self.battery_size == 70:
             self.battery_size = 85
-            return 'Battery size upgraded!'
+            return 'Battery size upgraded to ' + str(self.battery_size) + \
+                   '-kWh!'
 
 
 my_wrx = Car('subaru', 'wrx', 2019)
