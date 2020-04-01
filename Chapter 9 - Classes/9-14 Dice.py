@@ -6,7 +6,7 @@ class Die():
     Creates Die class with six sides.
 
     Parameters:
-        sides - Defaulted to six (6), can be altered to represent another
+        sides - Defaulted to six (6), can be altered to represent a different
         numerical value.
 
     Returns:
@@ -26,9 +26,9 @@ ten_side = Die(10)
 twenty_side = Die(20)
 
 
-def roll_dice(die, rolls=10):
+def roll_die_alot(die, rolls=10):
     """
-    Function to roll dice.
+    Function to roll dice numerous times.
 
     Parameters:
         die - Takes in the variable created from the Die() class.
@@ -50,6 +50,8 @@ def roll_dice(die, rolls=10):
     print("Complete!\n")
 
 
-roll_dice(six_side)
-roll_dice(ten_side,3)
-roll_dice(twenty_side,5)
+roll_die_alot(six_side)
+roll_die_alot(ten_side,3)
+roll_die_alot(twenty_side,5)
+
+print(Die.__doc__)
