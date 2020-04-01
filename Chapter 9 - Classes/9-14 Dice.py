@@ -3,41 +3,44 @@ from random import randint
 
 class Die():
     """
-    Creates Die class with default of six sides (can be altered if another
-    parameter is provided.
+    Creates Die class with six sides.
+
+    Parameters:
+        sides - Defaulted to six (6), can be altered to represent another
+        numerical value.
+
+    Returns:
+        Method of roll_die() will print random number between 1 and 6 (by
+        default).
     """
     def __init__(self, sides=6):
         self.sides = sides
-
-    """
-    This will roll the die, and give a random number from 1 to 6.
-    """
 
     def roll_die(self):
         x = randint(1, self.sides)
         print(x)
 
 
-"""
-Variables for 6, 10, and 20 sided-die created.
-"""
 six_side = Die()
 ten_side = Die(10)
 twenty_side = Die(20)
 
 
-def roll_die(die, rolls=10):
+def roll_dice(die, rolls=10):
     """
-    Function to roll die 10 times. Takes variable of created die.
+    Function to roll dice.
+
+    Parameters:
+        die - Takes in the variable created from the Die() class.
+        rolls - How many times the dice will roll. Defaulted to 10, can be
+        left blank or another numerical value can added.
+
+    Returns:
+        The printed output of the roll_die() method within the Die() class.
     """
 
     n = 0
     while True:
-        """
-        F string is used, prints which roll and number provided. Once 11 is hit,
-        the loop closes.
-        """
-
         n += 1
         print(f"Roll {n}: ")
         die.roll_die()
@@ -47,6 +50,6 @@ def roll_die(die, rolls=10):
     print("Complete!\n")
 
 
-roll_die(six_side)
-roll_die(ten_side,3)
-roll_die(twenty_side,5)
+roll_dice(six_side)
+roll_dice(ten_side,3)
+roll_dice(twenty_side,5)
