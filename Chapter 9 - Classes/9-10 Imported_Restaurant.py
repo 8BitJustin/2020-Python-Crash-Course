@@ -6,5 +6,5 @@ Restaurant's methods to show that the import statement is working properly.
 
 import restaurant_module
 
-chipotle = restaurant_module.Restaurant('chipotle', 'mexican')
-print(chipotle.describe_restaurant())
+tasty_noms = restaurant_module.Restaurant('chipotle', 'mexican')
+print(tasty_noms.describe_restaurant())
