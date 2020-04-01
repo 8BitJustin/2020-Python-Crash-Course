@@ -10,5 +10,5 @@ languages = {
 }
 
 for k, v in languages.items():
-    print('\nLanguage: ' + k.title())
-    print('\tCreated: ' + str(v))
+    print(f"\nLanguage: {k.title()}")
+    print(f"\tCreated: {str(v)}")
