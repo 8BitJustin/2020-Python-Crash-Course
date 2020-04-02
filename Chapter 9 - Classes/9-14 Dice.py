@@ -1,7 +1,7 @@
 from random import randint
 
 
-class Die():
+class Die:
     """
     Creates Die class with six sides.
 
