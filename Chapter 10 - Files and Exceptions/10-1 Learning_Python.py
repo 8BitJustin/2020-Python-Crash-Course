@@ -1,11 +1,15 @@
 # Reads entire file.
 
+print('First: ')
+
 with open('learning_python.txt') as file_object_01:
     contents = file_object_01.read()
     print(contents)
 
 
 # Reads by looping over file object.
+
+print('Second: ')
 
 file = 'learning_python.txt'
 
@@ -17,6 +21,8 @@ for line in lines:
 
 
 # Storing in a list, printing outside of with block
+
+print('Third: ')
 
 py_string = ''
 
