@@ -1,0 +1,5 @@
+I've learned a ton about Python.
+I've learned the basics.
+I've learned about functions and classes.
+Some information on webscraping.
+Hoping to learn a ton more so I can better understand what I can build.
