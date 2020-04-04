@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 10 - Files and Exceptions/10-4 Guest_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 10 - Files and Exceptions/10-4 Guest_Book.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +31,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Testing/Turtle_Practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcc-master/chapter_10/greet_user.py" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.10-3 Guest">
+  <component name="RunManager" selected="Python.10-4 Guest_Book">
     <configuration name="10-1 Learning_Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10-4 Guest_Book" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 10 - Files and Exceptions/file_reader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 10 - Files and Exceptions/10-4 Guest_Book.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10-4 Guest_Book" />
         <item itemvalue="Python.10-3 Guest" />
         <item itemvalue="Python.write_message" />
         <item itemvalue="Python.10-2 Learning_C" />
         <item itemvalue="Python.10-1 Learning_Python" />
-        <item itemvalue="Python.file_reader" />
       </list>
     </recent_temporary>
   </component>
@@ -163,26 +164,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1582086737279">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585958457058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582086737279" />
-    <state width="949" height="334" key="GridCell.Tab.0.bottom" timestamp="1585955198883">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585958457058" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1585966097629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585955198883" />
-    <state width="949" height="334" key="GridCell.Tab.0.center" timestamp="1585955198883">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585966097629" />
+    <state width="949" height="334" key="GridCell.Tab.0.bottom" timestamp="1585958423053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585955198883" />
-    <state width="949" height="334" key="GridCell.Tab.0.left" timestamp="1585955198883">
+    <state width="949" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585958423053" />
+    <state width="949" height="334" key="GridCell.Tab.0.center" timestamp="1585958423052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585955198883" />
-    <state width="949" height="334" key="GridCell.Tab.0.right" timestamp="1585955198883">
+    <state width="949" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585958423052" />
+    <state width="949" height="334" key="GridCell.Tab.0.left" timestamp="1585958423052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585955198883" />
+    <state width="949" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585958423052" />
+    <state width="949" height="334" key="GridCell.Tab.0.right" timestamp="1585958423052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585958423052" />
     <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1585666269759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
