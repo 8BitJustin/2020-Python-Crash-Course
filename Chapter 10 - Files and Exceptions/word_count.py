@@ -19,15 +19,6 @@ def count_words(filename):
         print(f"The file {filename} has {int(num_words)} words.")
 
 
-count_words('guest_book.txt')
-count_words('pi_digits.txt')
-count_words('pi_million_digits.txt')
-
-file = 'alice.txt'
-count_words(file)
-
-print('\nLooping through list and using count_words function.\n')
-
 files = ['guest.txt', 'guest_book.txt', 'more_guests.txt', 'pi_digits.txt',
          'pie_digits.txt', 'pi_million_digits.txt', 'alice.txt']
 for f in files:
