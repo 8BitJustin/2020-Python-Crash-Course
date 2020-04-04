@@ -9,6 +9,7 @@ def count_words(filename):
             contents = file_object.read()
     except FileNotFoundError:
         msg = f"Sorry, file {filename} does not exist."
+        print(msg)
     else:
         words = contents.split()
         num_words = len(words)
@@ -21,3 +22,10 @@ count_words('pi_million_digits.txt')
 
 file = 'alice.txt'
 count_words(file)
+
+print('\nLooping through list and using count_words function.\n')
+
+files = ['guest.txt', 'guest_book.txt', 'pi_digits.txt', 'pie_digits.txt',
+         'pi_million_digits.txt', 'alice.txt']
+for f in files:
+    count_words(f)
