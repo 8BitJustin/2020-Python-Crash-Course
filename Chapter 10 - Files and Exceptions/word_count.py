@@ -5,12 +5,14 @@ def count_words(filename):
     :return: Integer - Number of words within provided text file.
     """
     try:
-        with open(filename) as file_object:
-            contents = file_object.read()
+        with open(filename) as file_object_01:
+            contents = file_object_01.read()
     except FileNotFoundError:
-        msg = f"Sorry, file {filename} does not exist."
-
-        print(msg)
+        # If file is missing, the file name is added to the
+        # word_count_missing.txt file.
+        with open('word_count_missing.txt', 'a') as file_object_02:
+            file_object_02.write(f'{filename} was missing.\n')
+        pass
     else:
         words = contents.split()
         num_words = len(words)
@@ -26,7 +28,7 @@ count_words(file)
 
 print('\nLooping through list and using count_words function.\n')
 
-files = ['guest.txt', 'guest_book.txt', 'pi_digits.txt', 'pie_digits.txt',
-         'pi_million_digits.txt', 'alice.txt']
+files = ['guest.txt', 'guest_book.txt', 'more_guests.txt', 'pi_digits.txt',
+         'pie_digits.txt', 'pi_million_digits.txt', 'alice.txt']
 for f in files:
     count_words(f)
