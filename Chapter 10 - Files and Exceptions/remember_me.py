@@ -12,6 +12,6 @@ except FileNotFoundError:
     username = input("What is your name? ")
     with open(filename, 'w') as file_object:
         json.dump(username, file_object)
-        print("We'll remember you when you come back!")
+        print(f"We'll remember you when you come back, {username.title()}!")
 else:
-    print(f"Welcome back {username}!")
+    print(f"Welcome back {username.title()}!")
