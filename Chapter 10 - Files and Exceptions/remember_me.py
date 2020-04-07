@@ -31,7 +31,7 @@ def greet_user():
     if username:
         print(f"Welcome back {username.title()}!")
     else:
-        username = get_stored_username()
+        username = get_new_username()
         print(f"We'll remember you when you come back, {username.title()}!")
 
 
