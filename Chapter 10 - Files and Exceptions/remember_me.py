@@ -1,9 +1,8 @@
 import json
 
-def greet_user():
-    # Load username if previously stored.
-    # Otherwise prompt for username and store it.
 
+def greet_user():
+    """Greet user by name."""
     filename = 'username.json'
 
     try:
