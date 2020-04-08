@@ -31,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcc-master/chapter_10/greet_user.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Projects/IGBot" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Python.10-12 Favorite_Number_Revisited">
@@ -168,26 +168,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586318944092" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1585966097629">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1586358240753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585966097629" />
-    <state width="949" height="334" key="GridCell.Tab.0.bottom" timestamp="1586293484516">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586358240753" />
+    <state width="949" height="334" key="GridCell.Tab.0.bottom" timestamp="1586357202147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586293484516" />
-    <state width="949" height="334" key="GridCell.Tab.0.center" timestamp="1586293484516">
+    <state width="949" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586357202147" />
+    <state width="949" height="334" key="GridCell.Tab.0.center" timestamp="1586357202147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586293484516" />
-    <state width="949" height="334" key="GridCell.Tab.0.left" timestamp="1586293484516">
+    <state width="949" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586357202147" />
+    <state width="949" height="334" key="GridCell.Tab.0.left" timestamp="1586357202147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586293484516" />
-    <state width="949" height="334" key="GridCell.Tab.0.right" timestamp="1586293484516">
+    <state width="949" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586357202147" />
+    <state width="949" height="334" key="GridCell.Tab.0.right" timestamp="1586357202147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586293484516" />
+    <state width="949" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586357202147" />
     <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1586022539135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

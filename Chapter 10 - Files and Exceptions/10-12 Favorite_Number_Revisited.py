@@ -15,6 +15,7 @@ def number_retrieve():
 
 def number_display():
     fav_num = number_retrieve()
+
     if fav_num:
         print(f"Your favorite number is {fav_num}!")
     else:
