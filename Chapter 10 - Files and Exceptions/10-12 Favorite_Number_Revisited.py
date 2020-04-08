@@ -13,13 +13,15 @@ def number_retrieve():
         return fav_num
 
 
-def number_give():
+def number_display():
     fav_num = number_retrieve()
     if fav_num:
-    #     continue here
-    with open(filename, 'w') as file_object:
+        print(f"Your favorite number is {fav_num}!")
+    else:
         number = input("What is your favorite number? ")
-        json.dump(number, file_object)
+        filename = 'my_favorite_number.json'
+        with open(filename, 'w') as file_object:
+            json.dump(number, file_object)
 
 
-number_retrieve()
+number_display()
