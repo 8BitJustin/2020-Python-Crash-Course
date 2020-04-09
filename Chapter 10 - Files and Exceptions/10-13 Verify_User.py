@@ -29,7 +29,14 @@ def greet_user():
 
     username = get_stored_username()
     if username:
-        print(f"Welcome back {username.title()}!")
+        you = input(f"Is {username.title()} your name? (y or n) ")
+        if you == 'y':
+            print(f"Welcome back {username.title()}!")
+        else:
+            username = get_new_username()
+            print(
+                f"We'll remember you when you come back, {username.title()}!")
+            return username
     else:
         username = get_new_username()
         print(f"We'll remember you when you come back, {username.title()}!")
