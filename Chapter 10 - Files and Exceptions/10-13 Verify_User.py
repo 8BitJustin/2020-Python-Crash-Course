@@ -25,7 +25,11 @@ def get_new_username():
 
 
 def greet_user():
-    """Greet user by name."""
+    """
+    Greet user by name.
+
+    Will ask if username is you, and if not, will ask for name.
+    """
 
     username = get_stored_username()
     if username:
