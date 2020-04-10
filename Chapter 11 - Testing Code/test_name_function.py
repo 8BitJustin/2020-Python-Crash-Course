@@ -7,5 +7,5 @@ class NamesTestCase(unittest.TestCase):
 
     def test_first_last_name(self):
         formatted_name = get_formatted_name('j-bone', 'saturno')
-        self.assertEqual(formatted_name, 'J-bone Saturno')
+        self.assertEqual(formatted_name, 'J-Bone Saturno')
 
