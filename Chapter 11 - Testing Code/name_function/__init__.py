@@ -1,4 +1,4 @@
-def get_formatted_name(first, middle, last):
+def get_formatted_name(first, last, middle=""):
     """
     Creates formatted name.
     :param first: First name.
@@ -7,5 +7,13 @@ def get_formatted_name(first, middle, last):
     :return: First and last name with capitalized first letters.
     """
 
-    full_name = f"{first.title()} {middle.title()} {last.title()}"
+    if middle:
+        full_name = f"{first.title()} {middle.title()} {last.title()}"
+    else:
+        full_name = f"{first.title()} {last.title()}"
+
     return full_name
+
+# Test
+# print(get_formatted_name('justin', 'olson'))
+# print(get_formatted_name('justin', 'olson', 'richard'))
