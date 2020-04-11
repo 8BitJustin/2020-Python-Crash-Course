@@ -9,3 +9,6 @@ class NamesTestCase(unittest.TestCase):
         formatted_name = get_formatted_name('j-bone', 'saturno')
         self.assertEqual(formatted_name, 'J-Bone Saturno')
 
+    def test_first_last_middle_name(self):
+        formatted_name = get_formatted_name('j-bone', 'saturno', 'richardo')
+        self.assertEqual(formatted_name, 'J-Bone Richardo Saturno')
