@@ -8,6 +8,6 @@ class CitiesTestCase(unittest.TestCase):
         complete_area = city_country('rome', 'italy')
         self.assertEqual(complete_area, 'Rome, Italy')
 
-    def text_city_country_pop(self):
+    def test_city_country_pop(self):
         complete_area_population = city_country('santiago', 'chile', 5000000)
         self.assertEqual(complete_area_population, 'Santiago, Chile - 5000000')

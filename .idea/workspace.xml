@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 11 - Testing Code/city_country/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 11 - Testing Code/city_country/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 11 - Testing Code/test_cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 11 - Testing Code/test_cities.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
       <recent name="D:\Python\Learning\Books\Python Crash Course 2020\Chapter 11 - Testing Code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__ (1)">
+  <component name="RunManager" selected="Python tests.Unittests in test_cities.py">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python tests.Unittests in test_cities.py" />
         <item itemvalue="Python tests.Unittests in test_name_function.py" />
+        <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python tests.Unittests for test_name_function.NamesTestCase.test_first_last_middle_name" />
         <item itemvalue="Python.__init__" />
       </list>
@@ -146,6 +148,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586730029352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586730029352" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586447916824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,22 +160,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586358240753" />
-    <state width="949" height="334" key="GridCell.Tab.0.bottom" timestamp="1586727357011">
+    <state width="1899" height="334" key="GridCell.Tab.0.bottom" timestamp="1586729931144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586727357011" />
-    <state width="949" height="334" key="GridCell.Tab.0.center" timestamp="1586727357011">
+    <state width="1899" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586729931144" />
+    <state width="1899" height="334" key="GridCell.Tab.0.center" timestamp="1586729931144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586727357011" />
-    <state width="949" height="334" key="GridCell.Tab.0.left" timestamp="1586727357011">
+    <state width="1899" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586729931144" />
+    <state width="1899" height="334" key="GridCell.Tab.0.left" timestamp="1586729931144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586727357011" />
-    <state width="949" height="334" key="GridCell.Tab.0.right" timestamp="1586727357011">
+    <state width="1899" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586729931144" />
+    <state width="1899" height="334" key="GridCell.Tab.0.right" timestamp="1586729931144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586727357011" />
+    <state width="1899" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586729931144" />
     <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1586534555812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
