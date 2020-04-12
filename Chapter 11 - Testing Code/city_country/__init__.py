@@ -7,4 +7,4 @@ def city_country(city, country, population):
 
 
 # Test
-print(city_country('santiago', 'chile', 5000000))
+# print(city_country('santiago', 'chile', 5000000))
