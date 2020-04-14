@@ -6,26 +6,28 @@ class CreateEmployee:
         self.salary = salary
 
     def description(self):
-        print(f"First name: {self.first_name.title()}\n"
-              f"Last name: {self.last_name.title()}\n"
-              f"Salary: {int(self.salary)}/yr")
+        return f"{self.first_name.title()} " \
+               f"{self.last_name.title()} - " \
+               f"{self.salary}"
 
     def give_raise(self, increase=0):
         if increase:
             self.salary += increase
         else:
             self.salary += 5000
-        return self.salary
+        return f"{self.first_name.title()} " \
+               f"{self.last_name.title()} - " \
+               f"{self.salary}"
 
 
-newbie = CreateEmployee("j-bone", "saturno", 75000)
+# newbie = CreateEmployee("j-bone", "saturno", 75000)
+#
+# print(newbie.description())
 
-newbie.description()
-
-newbie.give_raise()
-
-newbie.description()
-
-newbie.give_raise(2500)
-
-newbie.description()
+# newbie.give_raise()
+#
+# newbie.description()
+#
+# newbie.give_raise(2500)
+#
+# newbie.description()
