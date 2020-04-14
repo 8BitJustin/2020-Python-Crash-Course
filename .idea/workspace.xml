@@ -37,7 +37,7 @@
       <recent name="D:\Python\Learning\Books\Python Crash Course 2020\Chapter 11 - Testing Code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_survey.TestAnonymousSurvey.test_store_three_responses">
+  <component name="RunManager" selected="Python tests.Unittests in test_survey.py">
     <configuration name="language_survey" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +101,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_name_function.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_survey.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,17 +111,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Chapter 11 - Testing Code/test_name_function.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Chapter 11 - Testing Code/test_survey.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_survey.py" />
         <item itemvalue="Python tests.Unittests for test_survey.TestAnonymousSurvey.test_store_three_responses" />
         <item itemvalue="Python tests.Unittests for test_survey.TestAnonymousSurvey.test_store_single_response" />
         <item itemvalue="Python.language_survey" />
         <item itemvalue="Python tests.Unittests in test_cities.py" />
-        <item itemvalue="Python tests.Unittests in test_name_function.py" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +151,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586358240753" />
-    <state width="1899" height="334" key="GridCell.Tab.0.bottom" timestamp="1586840996897">
+    <state width="1899" height="334" key="GridCell.Tab.0.bottom" timestamp="1586841069466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586840996897" />
-    <state width="1899" height="334" key="GridCell.Tab.0.center" timestamp="1586840996897">
+    <state width="1899" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586841069466" />
+    <state width="1899" height="334" key="GridCell.Tab.0.center" timestamp="1586841069466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586840996897" />
-    <state width="1899" height="334" key="GridCell.Tab.0.left" timestamp="1586840996897">
+    <state width="1899" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586841069466" />
+    <state width="1899" height="334" key="GridCell.Tab.0.left" timestamp="1586841069466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586840996897" />
-    <state width="1899" height="334" key="GridCell.Tab.0.right" timestamp="1586840996897">
+    <state width="1899" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586841069466" />
+    <state width="1899" height="334" key="GridCell.Tab.0.right" timestamp="1586841069466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586840996897" />
+    <state width="1899" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586841069466" />
     <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1586534555812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
