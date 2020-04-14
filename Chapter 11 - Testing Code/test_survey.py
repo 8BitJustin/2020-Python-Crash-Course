@@ -12,3 +12,14 @@ class TestAnonymousSurvey(unittest.TestCase):
         my_survey.store_response("English")
 
         self.assertIn("English", my_survey.responses)
+
+    def test_store_three_responses(self):
+        """Test that three responses are stored properly."""
+        question = "What language did you first learn to speak?"
+        my_survey = AnonymousSurvey(question)
+        responses = ['English', 'Spanish', 'Russian']
+        for response in responses:
+            my_survey.store_response(response)
+
+        for response in responses:
+            self.assertIn(response, my_survey.responses)
