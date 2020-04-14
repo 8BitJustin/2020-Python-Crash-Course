@@ -1,4 +1,4 @@
-class Employee:
+class CreateEmployee:
 
     def __init__(self, first_name, last_name, salary):
         self.first_name = first_name
@@ -18,7 +18,7 @@ class Employee:
         return self.salary
 
 
-newbie = Employee("j-bone", "saturno", 75000)
+newbie = CreateEmployee("j-bone", "saturno", 75000)
 
 newbie.description()
 
