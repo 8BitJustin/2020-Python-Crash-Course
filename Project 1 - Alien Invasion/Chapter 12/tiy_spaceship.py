@@ -1,13 +1,13 @@
 import pygame
 
-class spaceship:
+class Spaceship:
 
     def __init__(self, screen):
         self.screen = screen
 
         # Loads ship image and gets it's rect.
         self.image = pygame.image.load('images/spaceship.png')
-        self.rect = self.image.get.rect()
+        self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
         # Starts ship at middle of screen.
