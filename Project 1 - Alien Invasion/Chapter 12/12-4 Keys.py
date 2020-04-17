@@ -9,7 +9,7 @@ import pygame
 def run_game():
     pygame.init()
     screen = pygame.display.set_mode((400, 300))
-    pygame.display.set_caption("Rocket Game")
+    pygame.display.set_caption("Keypress")
 
     bg_color = (135, 206, 235)
 
