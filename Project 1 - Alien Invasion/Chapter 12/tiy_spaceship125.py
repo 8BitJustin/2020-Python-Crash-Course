@@ -7,12 +7,12 @@ class Spaceship:
         self.screen = screen
 
         # Loads ship image and gets it's rect.
-        self.image = pygame.image.load('images/spaceship125.png')
+        self.image = pygame.image.load('images/spaceship125-reduced.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
         # Starts ship at middle of screen.
-        self.rect.centerx = self.screen_rect.centerx
+        self.rect.left = self.screen_rect.left
         self.rect.centery = self.screen_rect.centery
 
         # Movement flag.
@@ -22,7 +22,7 @@ class Spaceship:
         self.moving_down = False
 
     def update(self):
-        if self.moving_right and self.rect.right < self.screen_rect.right:
+        if self.moving_right and self.rect.right < self.screen_rect.right/3:
             self.rect.centerx += 1
         elif self.moving_left and self.rect.left > 0:
             self.rect.centerx -= 1
