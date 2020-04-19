@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
       <recent name="D:\Python\Learning\Books\Python Crash Course 2020\Chapter 11 - Testing Code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.alien_invasion">
+  <component name="RunManager" selected="Python.12-3 Rocket">
     <configuration name="12-3 Rocket" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12-3 Rocket" />
         <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python.12-4 Keys" />
-        <item itemvalue="Python.12-3 Rocket" />
         <item itemvalue="Python.rocket_game" />
         <item itemvalue="Python.12.2 Game_Character" />
       </list>
