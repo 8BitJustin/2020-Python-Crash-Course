@@ -1,9 +1,6 @@
-"""Make a game that begins with a rocket in the center of the screen. Allow
-the player to move the rocket up, down, left, or right using the four arrow
-keys. Make sure the rocket never moves beyond any edge of the screen."""
-
 import sys
 import pygame
+from tiy_spaceship125_settings import Settings
 from tiy_spaceship125 import Spaceship
 
 
@@ -12,9 +9,10 @@ def run_game():
     screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption("Side Shooter")
 
+    settings = Settings()
     ship = Spaceship(screen)
 
-    bg_color = (135, 206, 235)
+    bg_color = settings.bg_color
 
     while True:
         ship.update()
