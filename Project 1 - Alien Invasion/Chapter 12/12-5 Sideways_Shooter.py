@@ -4,13 +4,13 @@ keys. Make sure the rocket never moves beyond any edge of the screen."""
 
 import sys
 import pygame
-from tiy_spaceship import Spaceship
+from tiy_spaceship125 import Spaceship
 
 
 def run_game():
     pygame.init()
     screen = pygame.display.set_mode((1200, 800))
-    pygame.display.set_caption("Rocket Game")
+    pygame.display.set_caption("Side Shooter")
 
     ship = Spaceship(screen)
 
