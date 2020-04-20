@@ -19,9 +19,9 @@ class Laser(Sprite):
         self.speed_factor = settings.laser_speed_factor
 
     def update(self):
-        self.x -= self.speed_factor
+        self.y -= self.speed_factor
 
-        self.rect.x = self.x
+        self.rect.x = self.y
 
     def draw_bullet(self):
         pygame.draw.rect(self.screen, self.color, self.rect)
