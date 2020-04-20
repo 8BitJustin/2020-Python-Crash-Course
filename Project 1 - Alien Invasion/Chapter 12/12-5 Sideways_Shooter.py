@@ -28,6 +28,7 @@ def run_game():
             elif event.type == pygame.K_SPACE:
                 new_laser = Laser(settings, screen, ship)
                 lasers.add(new_laser)
+                print(lasers)
 
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RIGHT:
