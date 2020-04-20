@@ -12,9 +12,11 @@ class Spaceship:
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
-        # Starts ship at middle of screen.
+        # Starts ship at left/middle of screen.
         self.rect.left = self.screen_rect.left
         self.rect.centery = self.screen_rect.centery
+
+        self.center = float(self.rect.centery)
 
         # Movement flag.
         self.moving_right = False
@@ -24,15 +26,14 @@ class Spaceship:
 
     def update(self):
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.rect.centerx += 1
+            self.rect.centerx += self.settings.ship_speed_factor
         elif self.moving_left and self.rect.left > 0:
-            self.rect.centerx -= 1
+            self.rect.centerx -= self.settings.ship_speed_factor
         elif self.moving_up and self.rect.top > 0:
-            self.rect.centery -= 1
+            self.rect.centery -= self.settings.ship_speed_factor
         elif self.moving_down and self.rect.bottom < self.screen_rect.bottom:
-            self.rect.centery += 1
+            self.rect.centery += self.settings.ship_speed_factor
 
-        self.
 
     def blitme(self):
         """Draws ship at current location."""

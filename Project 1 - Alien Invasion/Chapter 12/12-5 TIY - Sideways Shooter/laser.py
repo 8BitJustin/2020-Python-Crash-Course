@@ -20,7 +20,6 @@ class Laser(Sprite):
 
     def update(self):
         self.x += self.speed_factor
-
         self.rect.x = self.x
 
     def draw_laser(self):

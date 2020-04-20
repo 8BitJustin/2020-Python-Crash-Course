@@ -10,7 +10,7 @@ class GameSettings:
         self.bg_color = (230, 230, 230)
 
         # Ship settings.
-        self.ship_speed_factor = .5
+        self.ship_speed_factor = 1
 
         # Laser Settings.
         self.laser_speed_factor = 1
