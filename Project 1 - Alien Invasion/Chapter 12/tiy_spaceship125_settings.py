@@ -17,4 +17,4 @@ class GameSettings:
         self.laser_width = 12
         self.laser_height = 2
         self.laser_color = 60, 60, 60
-        self.lasers_allowed = 5
+        self.lasers_allowed = 500

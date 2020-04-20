@@ -23,7 +23,7 @@ class Spaceship:
         self.moving_down = False
 
     def update(self):
-        if self.moving_right and self.rect.right < self.screen_rect.right/3:
+        if self.moving_right and self.rect.right < self.screen_rect.right:
             self.rect.centerx += 1
         elif self.moving_left and self.rect.left > 0:
             self.rect.centerx -= 1
