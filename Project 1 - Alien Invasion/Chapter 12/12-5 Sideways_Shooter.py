@@ -1,6 +1,7 @@
 import sys
 import pygame
 from pygame.sprite import Group
+from laser import Laser
 from tiy_spaceship125_settings import Settings
 from tiy_spaceship125 import Spaceship
 
@@ -13,7 +14,7 @@ def run_game():
     pygame.display.set_caption("Side Shooter")
 
     ship = Spaceship(screen)
-    bullets = Group()
+    lasers = Group()
 
     bg_color = settings.bg_color
 
@@ -23,6 +24,10 @@ def run_game():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
+
+            elif event.type == pygame.K_SPACE:
+                new_laser = Laser(settings, screen, ship)
+                lasers.add(new_laser)
 
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RIGHT:
