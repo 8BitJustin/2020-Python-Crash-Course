@@ -32,6 +32,8 @@ class Spaceship:
         elif self.moving_down and self.rect.bottom < self.screen_rect.bottom:
             self.rect.centery += 1
 
+        self.
+
     def blitme(self):
         """Draws ship at current location."""
         self.screen.blit(self.image, self.rect)

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 Sideways_Shooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 TIY - Sideways Shooter/12-5 Sideways_Shooter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/laser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 TIY - Sideways Shooter/laser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/tiy_spaceship.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 TIY - Sideways Shooter/tiy_spaceship.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/tiy_spaceship125.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 TIY - Sideways Shooter/tiy_spaceship125.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/tiy_spaceship125_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 TIY - Sideways Shooter/tiy_spaceship125_events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/tiy_spaceship125_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 TIY - Sideways Shooter/tiy_spaceship125_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python Crash Course 2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python Crash Course 2020.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
@@ -228,15 +222,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="566" y="266" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586669160207" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Project 1 - Alien Invasion/Chapter 12/12-5 TIY - Sideways Shooter/12-5 Sideways_Shooter.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
