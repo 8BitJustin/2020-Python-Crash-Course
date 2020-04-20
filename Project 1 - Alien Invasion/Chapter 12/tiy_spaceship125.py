@@ -3,8 +3,9 @@ import pygame
 
 class Spaceship:
 
-    def __init__(self, screen):
+    def __init__(self, settings, screen):
         self.screen = screen
+        self.settings = settings
 
         # Loads ship image and gets it's rect.
         self.image = pygame.image.load('images/spaceship125-reduced.png')
