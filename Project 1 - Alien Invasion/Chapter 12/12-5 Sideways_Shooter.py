@@ -1,20 +1,24 @@
 import sys
 import pygame
+from pygame.sprite import Group
 from tiy_spaceship125_settings import Settings
 from tiy_spaceship125 import Spaceship
 
 
 def run_game():
     pygame.init()
-    screen = pygame.display.set_mode((1200, 800))
+    settings = Settings()
+    screen = pygame.display.set_mode((settings.screen_width,
+                                      settings.screen_height))
     pygame.display.set_caption("Side Shooter")
 
-    settings = Settings()
     ship = Spaceship(screen)
+    bullets = Group()
 
     bg_color = settings.bg_color
 
     while True:
+
         ship.update()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

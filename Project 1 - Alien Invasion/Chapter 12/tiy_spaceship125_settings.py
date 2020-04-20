@@ -13,8 +13,8 @@ class Settings:
         self.ship_speed_factor = 1.5
 
         # Laser Settings.
-        self.bullet_speed_factor = 1
-        self.bullet_width = 3
-        self.bullet_height = 15
-        self.bullet_color = 60, 60, 60
-        self.bullets_allowed = 3
+        self.laser_speed_factor = 1
+        self.laser_width = 12
+        self.laser_height = 2
+        self.laser_color = 60, 60, 60
+        self.laser_allowed = 5
