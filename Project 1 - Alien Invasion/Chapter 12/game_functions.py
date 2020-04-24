@@ -73,10 +73,11 @@ def create_fleet(ai_settings, screen, aliens):
         aliens.add(alien)
 
 
-def update_screen(ai_settings, screen, ship, aliens, bullets):
+def update_screen(ai_settings, screen, ship, aliens, bullets, bg):
     # Update images on the screen and flip to the new screen.
     screen.fill(ai_settings.bg_color)
-
+    # Background image.
+    screen.blit(bg, (0, 0))
     # Redraw all bullets behind ship and aliens.
     for bullet in bullets.sprites():
         bullet.draw_bullet()
