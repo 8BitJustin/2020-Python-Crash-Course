@@ -9,7 +9,7 @@ while True:
     rw.fill_walk()
 
     # Set the size of the plotting window.
-    plt.figure(figsize=(15, 8))
+    plt.figure(dpi=128, figsize=(15, 8))
 
     point_numbers = list(range(rw.num_points))
     plt.scatter(rw.x_values, rw.y_values, c=point_numbers,
@@ -25,6 +25,7 @@ while True:
     plt.axes().get_yaxis().set_visible(False)
 
     plt.show()
+    # plt.savefig("rw_visual_02.png", bbox_inches="tight")
 
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
