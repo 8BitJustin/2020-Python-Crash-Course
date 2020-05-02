@@ -8,7 +8,8 @@ while True:
     rw = RandomWalk(50000)
     rw.fill_walk()
 
-    fig = plt.figure(figsize=(15, 8))
+    # Set the size of the plotting window.
+    plt.figure(figsize=(15, 8))
 
     point_numbers = list(range(rw.num_points))
     plt.scatter(rw.x_values, rw.y_values, c=point_numbers,
