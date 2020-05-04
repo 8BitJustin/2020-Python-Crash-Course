@@ -30,7 +30,7 @@ class RandomWalk:
             if x_step == 0 and y_step == 0:
                 continue
 
-            # Calculate the next x andy values.
+            # Calculate the next x and y values.
             next_x = self.x_values[-1] + x_step
             next_y = self.y_values[-1] + y_step
 
