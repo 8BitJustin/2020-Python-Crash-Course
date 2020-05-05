@@ -51,7 +51,7 @@ def roll_die_alot(die, rolls=10):
 
 
 roll_die_alot(six_side)
-roll_die_alot(ten_side,3)
-roll_die_alot(twenty_side,5)
+roll_die_alot(ten_side, 3)
+roll_die_alot(twenty_side, 5)
 
 print(Die.__doc__)
