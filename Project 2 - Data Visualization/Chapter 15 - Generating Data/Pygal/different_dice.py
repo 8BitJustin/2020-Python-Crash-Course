@@ -1,7 +1,7 @@
 from die import Die
 import pygal
 
-# Create D6.
+# Create D6 and D10.
 die_1 = Die()
 die_2 = Die(10)
 
