@@ -27,5 +27,5 @@ hist.x_labels = list(range(2, 17))
 hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
 
-hist.add("D6 + D6", frequencies)
+hist.add("D6 + D10", frequencies)
 hist.render_to_file('two_diff_die_visual.svg')
