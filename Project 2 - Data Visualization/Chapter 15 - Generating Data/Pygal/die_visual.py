@@ -5,10 +5,10 @@ from die import Die
 die = Die()
 
 # Make some rolls, and store results in a list.
-results = []
-for roll_num in range(1000):
-    result = die.roll()
-    results.append(result)
+results = [die.roll() for roll_num in range(1000)]
+# for roll_num in range(1000):
+#     result = die.roll()
+#     results.append(result)
 
 # Analyze results.
 frequencies = []

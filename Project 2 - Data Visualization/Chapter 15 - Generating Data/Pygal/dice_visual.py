@@ -6,10 +6,11 @@ die_1 = Die()
 die_2 = Die()
 
 # Make some rolls, and store results in a list.
-results = []
-for roll_num in range(1000):
-    result = die_1.roll() + die_2.roll()
-    results.append(result)
+# results variable/list altered to list comprehension per 15.6.
+results = [die_1.roll() + die_2.roll() for roll_num in range(1000)]
+# for roll_num in range(1000):
+#     result = die_1.roll() + die_2.roll()
+#     results.append(result)
 
 # Analyze results.
 frequencies = []
