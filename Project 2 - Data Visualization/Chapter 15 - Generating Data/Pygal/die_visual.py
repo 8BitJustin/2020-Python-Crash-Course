@@ -3,11 +3,11 @@ import pygal
 
 # Create D6.
 die_1 = Die()
-die_2 = Die()
+die_2 = Die(10)
 
 # Make some rolls, store results in a list.
 results = []
-for roll_num in range(1000):
+for roll_num in range(50000):
     result = die_1.roll() + die_2.roll()
     results.append(result)
 
@@ -21,11 +21,11 @@ for value in range(2, max_result+1):
 # Visualize results.
 hist = pygal.Bar()
 
-hist.title = "Results of rolling two D6 die 1000 times."
+hist.title = "Results of rolling a D6 die and a D10 die 50000 times."
 # hist.x_labels = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
-hist.x_labels = list(range(2, 13))
+hist.x_labels = list(range(2, 17))
 hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
 
 hist.add("D6 + D6", frequencies)
-hist.render_to_file('two_die_visual.svg')
+hist.render_to_file('two_diff_die_visual.svg')
