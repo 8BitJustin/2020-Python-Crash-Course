@@ -22,7 +22,7 @@ for value in range(2, max_result+1):
 hist = pygal.Bar()
 
 hist.title = "Results of rolling a D6 die and a D10 die 50000 times."
-# hist.x_labels = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
+# x_labels altered to list comprehension per 15.6.
 hist.x_labels = list(range(2, 17))
 hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
