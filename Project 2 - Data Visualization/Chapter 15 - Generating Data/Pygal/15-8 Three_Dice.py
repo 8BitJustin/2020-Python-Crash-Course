@@ -15,7 +15,7 @@ hist = pygal.Bar()
 hist.title = "Results of rolling...OMG...THREE D6 die!!!"
 hist.x_labels = list(range(3, 19))
 hist.x_title = "Results"
-hist.y_labels = "Frequency of Results"
+hist.y_title = "Frequency of Results"
 
 hist.add("D6 X 3!!!", frequencies)
 hist.render_to_file('three_die_visual.svg')
