@@ -3,7 +3,7 @@ from datetime import datetime
 
 from matplotlib import pyplot as plt
 
-# Get high temps and dates from file.
+# Get high/low temps and dates from file.
 filename = 'sitka_weather_07-2014.csv'
 with open(filename) as file:
     reader = csv.reader(file)
