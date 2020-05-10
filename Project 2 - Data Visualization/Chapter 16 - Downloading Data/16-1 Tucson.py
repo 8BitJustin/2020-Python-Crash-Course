@@ -10,13 +10,17 @@ with open(filename) as f:
 
     dates, highs, lows = [], [], []
     for row in reader:
+        # Only runs rows from Tucson Int'l Airport.
         if row[1] == "TUCSON INTERNATIONAL AIRPORT, AZ US":
+            # Will create variables current_date, high, and low.
             try:
                 current_date = datetime.strptime(row[2], "%Y-%m-%d")
                 high = int(row[3])
                 low = int(row[4])
+            # Exception ran if above can't be done.
             except ValueError:
                 print(current_date, 'missing data')
+            # If all is present, variables are appended to their lists.
             else:
                 dates.append(current_date)
                 highs.append(high)
