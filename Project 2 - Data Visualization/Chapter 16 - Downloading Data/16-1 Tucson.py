@@ -24,8 +24,9 @@ with open(filename) as f:
 
 # Plotting data.
 fig = plt.figure(dpi=128, figsize=(10, 6))
-plt.plot(dates, highs, c='red')
-plt.plot(dates, lows, c='blue')
+plt.plot(dates, highs, c='red', alpha=0.5)
+plt.plot(dates, lows, c='blue', alpha=0.5)
+plt.fill_between(dates, highs, lows, facecolor="blue", alpha=0.1)
 
 # Formatting plot.
 plt.title("High and low temps, Tucson AZ\nJune 1980", fontsize=18)
@@ -34,4 +35,4 @@ fig.autofmt_xdate()
 plt.ylabel("Temperature (F)", fontsize=12)
 plt.tick_params(axis="both", which="major", labelsize=12)
 
-plt.show()
+plt.savefig('tucson_temps_6-1980.png')
