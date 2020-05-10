@@ -11,14 +11,16 @@ with open(filename) as f:
     dates, highs, lows = [], [], []
     for row in reader:
         if row[1] == "TUCSON INTERNATIONAL AIRPORT, AZ US":
-            current_date = datetime.strptime(row[2], "%Y-%m-%d")
-            dates.append(current_date)
-
-            high = int(row[3])
-            highs.append(high)
-
-            low = int(row[4])
-            lows.append(low)
+            try:
+                current_date = datetime.strptime(row[2], "%Y-%m-%d")
+                high = int(row[3])
+                low = int(row[4])
+            except ValueError:
+                print(current_date, 'missing data')
+            else:
+                dates.append(current_date)
+                highs.append(high)
+                lows.append(low)
 
 # Plotting data.
 fig = plt.figure(dpi=128, figsize=(10, 6))
