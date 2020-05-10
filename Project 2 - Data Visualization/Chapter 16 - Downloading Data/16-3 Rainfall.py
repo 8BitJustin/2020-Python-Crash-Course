@@ -29,4 +29,4 @@ fig.autofmt_xdate()
 plt.ylabel('Precipitation (inches)', fontsize=12)
 plt.tick_params(axis='both', which='major', labelsize=12)
 
-plt.show()
+plt.savefig('tucson_precip_2019.png')
