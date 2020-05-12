@@ -11,8 +11,6 @@ with open(filename) as f:
 
 # Build a dictionary of population data.
 cc_populations = {}
-
-# Print 2010 population for each country.
 for pop_dict in pop_data:
     if pop_dict['Year'] == '2010':
         country_name = pop_dict['Country Name']
@@ -20,6 +18,19 @@ for pop_dict in pop_data:
         code = get_country_code(country_name)
         if code:
             cc_populations[code] = population
+
+# Group the countries into 3 population levels.
+cc_pops_1, cc_pops_2, cc_pops_3 = {}, {}, {}
+for cc, pop in cc_populations.items():
+    if pop < 10000000:
+        cc_pops_1[cc] = pop
+    elif pop < 1000000000:
+        cc_pops_2[cc] = pop
+    else:
+        cc_pops_3[cc] = pop
+
+# See how many countries are in each level.
+print(len(cc_pops_1), len(cc_pops_2), len(cc_pops_3))
 
 wm = World()
 wm.title = 'World Population in 2010, by Country'
