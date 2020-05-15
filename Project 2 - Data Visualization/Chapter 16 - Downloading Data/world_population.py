@@ -19,8 +19,6 @@ for pop_dict in pop_data:
         code = get_country_code(country_name)
         if code:
             cc_populations[code] = population
-        else:
-            print(country_name)
 
 # Group the countries into 3 population levels.
 cc_pops_1, cc_pops_2, cc_pops_3 = {}, {}, {}
