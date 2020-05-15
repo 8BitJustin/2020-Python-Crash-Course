@@ -19,6 +19,8 @@ for pop_dict in pop_data:
         code = get_country_code(country_name)
         if code:
             cc_populations[code] = population
+        else:
+            print(country_name)
 
 # Group the countries into 3 population levels.
 cc_pops_1, cc_pops_2, cc_pops_3 = {}, {}, {}
@@ -29,9 +31,6 @@ for cc, pop in cc_populations.items():
         cc_pops_2[cc] = pop
     else:
         cc_pops_3[cc] = pop
-
-# See how many countries are in each level.
-print(len(cc_pops_1), len(cc_pops_2), len(cc_pops_3))
 
 wm_style = RS('#336699', base_style=LCS)
 wm = World(style=wm_style)
