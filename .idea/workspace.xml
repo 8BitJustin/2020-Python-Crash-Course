@@ -29,7 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Data Management/covid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Udemy/The Python Mega Course" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -41,7 +41,7 @@
       <recent name="D:\Python\Learning\Books\Python Crash Course 2020\Project 1 - Alien Invasion\Chapter 12\12-5 TIY - Sideways Shooter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tucson_high_low_2019">
+  <component name="RunManager" selected="Python.world_population">
     <configuration name="americas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,8 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tucson_high_low_2019" />
         <item itemvalue="Python.world_population" />
+        <item itemvalue="Python.tucson_high_low_2019" />
         <item itemvalue="Python.na_populations" />
         <item itemvalue="Python.americas" />
         <item itemvalue="Python.country_codes" />
@@ -183,26 +183,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586447916824" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1589047817864">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1589497779937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589047817864" />
-    <state width="1899" height="336" key="GridCell.Tab.0.bottom" timestamp="1589415076366">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589497779937" />
+    <state width="1899" height="336" key="GridCell.Tab.0.bottom" timestamp="1589415437192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589415076366" />
-    <state width="1899" height="336" key="GridCell.Tab.0.center" timestamp="1589415076366">
+    <state width="1899" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589415437192" />
+    <state width="1899" height="336" key="GridCell.Tab.0.center" timestamp="1589415437192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589415076366" />
-    <state width="1899" height="336" key="GridCell.Tab.0.left" timestamp="1589415076365">
+    <state width="1899" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589415437192" />
+    <state width="1899" height="336" key="GridCell.Tab.0.left" timestamp="1589415437192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589415076365" />
-    <state width="1899" height="336" key="GridCell.Tab.0.right" timestamp="1589415076366">
+    <state width="1899" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589415437192" />
+    <state width="1899" height="336" key="GridCell.Tab.0.right" timestamp="1589415437192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589415076366" />
+    <state width="1899" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589415437192" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1588718360764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
