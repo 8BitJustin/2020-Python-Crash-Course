@@ -9,7 +9,7 @@ if r.status_code == 200:
 
 # Store API response in a variable.
 response_dict = r.json()
-print(f"Total repositories: {response_dict['total_count']}")
+print(f"Total Python repositories: {response_dict['total_count']}")
 
 # Explore information about the repositories.
 repo_dicts = response_dict['items']
