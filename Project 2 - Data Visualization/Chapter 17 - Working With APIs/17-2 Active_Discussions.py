@@ -45,7 +45,7 @@ for submission_dict in submission_dicts:
     plot_dicts.append(plot_dict)
 
 my_config = pygal.Config()
-my_config.x_label_rotation = 45
+my_config.x_label_rotation = 30
 my_config.show_legend = False
 my_config.title_font_size = 24
 my_config.label_font_size = 14
