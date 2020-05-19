@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 17 - Working With APIs/hn_submissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 17 - Working With APIs/hn_submissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 17 - Working With APIs/17-1 Other_Languages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 17 - Working With APIs/17-1 Other_Languages.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <recent name="D:\Python\Learning\Books\Python Crash Course 2020\Chapter 11 - Testing Code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hn_submissions">
+  <component name="RunManager" selected="Python.17-1 Other_Languages">
     <configuration name="16-6 Gross_Domestic_Product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Crash Course 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,6 +55,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 16 - Downloading Data/16-6 Gross_Domestic_Product.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17-1 Other_Languages" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Crash Course 2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 17 - Working With APIs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 17 - Working With APIs/17-1 Other_Languages.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,34 +147,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="world_population" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Crash Course 2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 16 - Downloading Data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project 2 - Data Visualization/Chapter 16 - Downloading Data/world_population.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17-1 Other_Languages" />
         <item itemvalue="Python.hn_submissions" />
         <item itemvalue="Python.python_repos" />
         <item itemvalue="Python.bar_descriptions" />
         <item itemvalue="Python.16-6 Gross_Domestic_Product" />
-        <item itemvalue="Python.world_population" />
       </list>
     </recent_temporary>
   </component>
@@ -187,22 +187,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589497779937" />
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1589851463683">
+    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1589897977069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589851463683" />
-    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1589851463683">
+    <state width="1899" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589897977069" />
+    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1589897977069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589851463683" />
-    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1589851463683">
+    <state width="1899" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589897977069" />
+    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1589897977069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589851463683" />
-    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1589851463683">
+    <state width="1899" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589897977069" />
+    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1589897977069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589851463683" />
+    <state width="1899" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589897977069" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1588718360764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
