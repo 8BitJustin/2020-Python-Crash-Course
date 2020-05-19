@@ -30,6 +30,7 @@ for repo_dict in repo_dicts:
 # Create visualization. Commented out to utilize NeonStyle.
 # my_style = LS('#228b22', base_style=LCS)
 
+
 my_config = pygal.Config()
 my_config.x_label_rotation = 45
 my_config.show_legend = False
