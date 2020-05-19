@@ -55,7 +55,7 @@ my_config.show_y_guides = False
 my_config.width = 1000
 
 chart = pygal.Bar(my_config, style=NS)
-chart.title = 'Most-Starred Python Projects on Github'
+chart.title = 'Most-Commented on Hacker News'
 chart.x_labels = titles
 
 chart.add('', plot_dicts)
