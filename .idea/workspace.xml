@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c556410d-7946-4c5e-bb72-eb79c2753b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 3 - Web Applications/Chapter 18 - Django/learning_log/learning_logs/templates/learning_logs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project 3 - Web Applications/Chapter 18 - Django/learning_log/learning_logs/templates/learning_logs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 3 - Web Applications/Chapter 18 - Django/learning_log/learning_logs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 3 - Web Applications/Chapter 18 - Django/learning_log/learning_logs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 3 - Web Applications/Chapter 18 - Django/learning_log/learning_logs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 3 - Web Applications/Chapter 18 - Django/learning_log/learning_logs/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PythonChallenge" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -188,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586447916824" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1590874424472">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1591972892308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590874424472" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591972892308" />
     <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1590589579250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
